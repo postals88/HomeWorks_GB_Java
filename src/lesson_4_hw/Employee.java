@@ -1,4 +1,4 @@
-package lesoon4HW;
+package lesson_4_hw;
 
 public class Employee {
     private String name;
