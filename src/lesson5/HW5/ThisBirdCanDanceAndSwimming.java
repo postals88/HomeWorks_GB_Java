@@ -1,8 +1,17 @@
 package lesson5.HW5;
 
-public class SwimmingBirdWTF extends Bird {
+public class ThisBirdCanDanceAndSwimming extends Bird {
 
-    public SwimmingBirdWTF(String nameAnimal, int runDistance, int swimDistance, float jumpHeight) {
-        super(nameAnimal, runDistance, swimDistance, jumpHeight);
+    public ThisBirdCanDanceAndSwimming(String nameAnimal, int runDistance, int swimDistance, float jumpHeight, String dancingInWater) {
+        super(nameAnimal, runDistance, swimDistance, jumpHeight, dancingInWater);
     }
+    @Override
+    void swimAndDance(){
+        swimDistance = 100500;
+        System.out.println(nameAnimal + dancingInWater + swimDistance +" м.");
+    }
+
+
+
 }
+
