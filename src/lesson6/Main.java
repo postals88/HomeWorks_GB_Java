@@ -1,2 +1,7 @@
-package lesson6;public class Main {
+package lesson6;
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Просмотрел лекцию,сделал конспект!");
+    }
 }

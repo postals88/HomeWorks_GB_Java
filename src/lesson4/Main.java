@@ -1,4 +1,4 @@
-package lesson_4_hw;
+package lesson4;
 
 
 
